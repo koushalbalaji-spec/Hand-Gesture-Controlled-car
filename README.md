@@ -61,5 +61,7 @@ This eliminates the need for remote or complicated controls.
   - `I2Cdev`
   - `MPU6050`
   - `RF24`
+##  PCB images and circuit diagram uploaded.
+
 
 ## Thank You
