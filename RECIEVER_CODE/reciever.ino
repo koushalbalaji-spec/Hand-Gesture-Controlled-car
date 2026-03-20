@@ -40,16 +40,16 @@ void loop() {
     Serial.print("Received ax: "); Serial.println(data.ax);
     Serial.print("Received ay: "); Serial.println(data.ay);
 
-    if (data.ay > 8000) { // Right Turn Test
-      Serial.println("Testing Right Turn");
+    if (data.ay > 8000) { // Right Turn 
+      
       digitalWrite(m1, HIGH);      // Left motor forward
       digitalWrite(m2, LOW);
       analogWrite(speedpin, 200);  // Adjust speed as needed
       digitalWrite(m1a, LOW);      // Right motor backward
       digitalWrite(m2a, HIGH);
       analogWrite(speedpin2, 200);
-    } else if (data.ay < -8000) { // Left Turn Test
-      Serial.println("Testing Left Turn");
+    } else if (data.ay < -8000) { // Left Turn 
+      
       digitalWrite(m1, LOW);       // Left motor backward
       digitalWrite(m2, HIGH);
       analogWrite(speedpin, 200);
@@ -61,7 +61,7 @@ void loop() {
     } else if (data.ax > 2250) {
       int mspeed = map(data.ax, 2000, 17000, 0, 255);
       mspeed = constrain(mspeed, 0, 255);
-      Serial.println("X-axis: Motor backward with PWM");
+      //X-axis: Motor backward with PWM
       digitalWrite(m1, LOW);
       digitalWrite(m2,HIGH );
       analogWrite(speedpin, mspeed);
@@ -72,7 +72,7 @@ void loop() {
     } else if (data.ax < -1700) {
       int mspeed = map(data.ax, -1500, -14000, 0, 255);
       mspeed = constrain(mspeed, 0, 255);
-      Serial.println("X-axis: Motor forward with PWM");
+      //X-axis: Motor forward with PWM
       digitalWrite(m2,LOW);
       digitalWrite(m1, HIGH);
       analogWrite(speedpin, mspeed);
