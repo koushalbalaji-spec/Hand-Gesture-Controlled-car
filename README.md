@@ -12,6 +12,7 @@ transmitted wirelessly using NRF24L01
 modules to another Arduino mounted on the car, which then controls the motors accordingly.
 
 This eliminates the need for remote or complicated controls.
+
 **Update:** to reduce the use of battery, i have removed the arduino uno and replaced it with Atmega 328P chip.
 
 ---
