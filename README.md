@@ -12,6 +12,7 @@ transmitted wirelessly using NRF24L01
 modules to another Arduino mounted on the car, which then controls the motors accordingly.
 
 This eliminates the need for remote or complicated controls.
+**Update:** to reduce the use of battery, i have removed the arduino uno and replaced it with Atmega 328P chip.
 
 ---
 
@@ -27,10 +28,11 @@ This eliminates the need for remote or complicated controls.
 ##  Working Principle
 
 1. The **MPU6050** detects hand tilt (X and Y axis).
-2. The **transmitter Arduino** processes this data.
+2. The **transmitter Arduino nano** processes this data.
 3. Data is sent wirelessly via **NRF24L01**.
-4. The **receiver Arduino** receives the data.
-5. The **motor driver (L298N)** controls the motors based on received gestures.
+4. The **receiver NRF24L01** receives the data.
+5. The **Atmega 328p** on board chip processes and coordinates the motors.
+6. The **motor driver (L298N)** controls the motors based on received gestures.
 
 ---
 
@@ -40,16 +42,22 @@ This eliminates the need for remote or complicated controls.
 - Arduino nano 
 - MPU6050 accelerometer & gyroscope  
 - NRF24L01 module  
-- Jumper wires  
+- PCB
 - Power source (Recharable power bank)
 
 ### Receiver (Car Unit)
-- Arduino Uno  
-- NRF24L01 PA/LNA module  
-- motor driver  
-- DC motors with wheels  
+- **ATMEGA 328P**
+- **AMS1117-3.3v**(provides stable 3.3v for Nrf)
+- 16mhz Crystal Oscillator
+- 10k Ohm resistor
+- 2 10uf Capacitor
+- 2 22pf Capacitors
+- **NRF24L01 PA/LNA module**  
+- **motor driver**  
+- **4 DC motors** with wheels  
 - Chassis  
 - Battery pack  (2 sets of batteries)
+- **PCB** to house all the components
 
 ---
 
