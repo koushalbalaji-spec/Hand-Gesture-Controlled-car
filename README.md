@@ -13,7 +13,14 @@ modules to another Arduino mounted on the car, which then controls the motors ac
 
 This eliminates the need for remote or complicated controls.
 
-**Update:** to reduce the use of battery, i have removed the arduino uno and replaced it with Atmega 328P chip.
+---
+
+## Update:
+**- To reduce the use of battery, i have removed the arduino uno and replaced it with Atmega 328P chip.**
+- PCB Built to house all the components and establish strong Connection.
+- Steps taken To reduce noise disturbance to **NRF24L01**.
+- Stronger Communication lines.
+- 2 more motors added to increase **Drive power** and **Accuracy**.
 
 ---
 
