@@ -39,6 +39,7 @@ This eliminates the need for remote or complicated controls.
 - Steps taken To reduce noise disturbance to **NRF24L01**.
 - Stronger Communication lines.
 - 2 more motors added to increase **Drive power** and **Accuracy**.
+- Reduced the Number of Battery Packs Needed
 
 ---
 ## TOP VIEW (With PCB)
