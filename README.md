@@ -1,10 +1,11 @@
-# Hand Gesture Controlled Arduino Car
+## Hand Gesture Controlled Arduino Car 
 
 This is a wireless robotic car controlled entirely by hand gestures — no joystick, 
 no buttons. Tilting your hand forward makes the car go forward, tilting it back 
 reverses it, and leaning left or right steers it. The motion is picked up by an 
 MPU6050 sensor on a glove, sent wirelessly via NRF24L01 radio modules, and 
 interpreted by an Atmega328P chip on a custom PCB that drives four DC motors.
+
 ---
 ## How to use it
 
