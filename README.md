@@ -15,14 +15,13 @@ or right. The car responds in real time to your hand angle. No pairing step is
 needed; the NRF24L01 modules communicate automatically on the same channel.
 
 ## Why I built this
-
 I wanted to explore wireless communication and motion sensing without relying on 
 a phone app or a traditional remote. Building a gesture-controlled interface felt 
 like a more intuitive and hands-on challenge. I also wanted experience designing 
 my own PCB to replace the breadboard prototype, reduce noise on the NRF module, 
 and shrink the overall build by swapping the Arduino Uno for a bare Atmega328P chip.
----
 
+---
 ## Overview
 
 This project allows a user to control a robotic car using simple hand movements(tilting).  
