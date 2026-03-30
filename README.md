@@ -23,7 +23,10 @@ This eliminates the need for remote or complicated controls.
 - 2 more motors added to increase **Drive power** and **Accuracy**.
 
 ---
+##TOP VIEW (With PCB)
+<img width="1032" height="726" alt="image" src="https://github.com/user-attachments/assets/e47d4ea1-8085-430c-9c91-8858138b73a8" />
 
+---
 ##  Features
 
 - Hand gesture–based control  
