@@ -1,8 +1,26 @@
 # Hand Gesture Controlled Arduino Car
 
-A wireless robotic car that moves according to hand gestures using an **MPU6050 accelerometer & gyroscope** and 
-**NRF24L01** wireless communication modules and a **"motor driver".**
+This is a wireless robotic car controlled entirely by hand gestures — no joystick, 
+no buttons. Tilting your hand forward makes the car go forward, tilting it back 
+reverses it, and leaning left or right steers it. The motion is picked up by an 
+MPU6050 sensor on a glove, sent wirelessly via NRF24L01 radio modules, and 
+interpreted by an Atmega328P chip on a custom PCB that drives four DC motors.
+---
+## How to use it
 
+Wear the transmitter glove and power it on using the power bank. Power on the car. 
+Tilt your hand in the direction you want the car to move — forward, backward, left, 
+or right. The car responds in real time to your hand angle. No pairing step is 
+needed; the NRF24L01 modules communicate automatically on the same channel.
+
+## Why I built this
+
+I wanted to explore wireless communication and motion sensing without relying on 
+a phone app or a traditional remote. Building a gesture-controlled interface felt 
+like a more intuitive and hands-on challenge. I also wanted experience designing 
+my own PCB to replace the breadboard prototype, reduce noise on the NRF module, 
+and shrink the overall build by swapping the Arduino Uno for a bare Atmega328P chip.
+---
 
 ## Overview
 
