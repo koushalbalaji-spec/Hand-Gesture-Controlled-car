@@ -33,7 +33,10 @@ This eliminates the need for remote or complicated controls.
 
 ---
 ##Car without PCB
+
 ![1000031322](https://github.com/user-attachments/assets/62e01929-ae63-4fce-bfde-7fad04b0160e)
+---
+![1000031337 - Copy](https://github.com/user-attachments/assets/02a6a445-61f1-483c-bd40-d33ae536b9f9)
 
 ---
 **_NOTE: _****The Transmitter is just the PCB on a Glove connected to PowerSource as shown above.**
@@ -68,7 +71,9 @@ This eliminates the need for remote or complicated controls.
 - Power source (Recharable power bank)
 
 ##PCB
+
 ![pcbTransimitter2d](https://github.com/user-attachments/assets/225a32a9-cbb8-4f2d-ad8f-787ad41c586c)
+---
 ![TransmitterCircuit](https://github.com/user-attachments/assets/80c9dca5-1593-464d-86fb-dc841edae475)
 
 ---
@@ -87,7 +92,9 @@ This eliminates the need for remote or complicated controls.
 - **PCB** to house all the components
 
 ##PCB
+
 ![Screenshot 2026-03-03 171144](https://github.com/user-attachments/assets/099cbaec-8ab9-4400-a191-c3e82f6403a6)
+---
 ![RecieverCircuit](https://github.com/user-attachments/assets/28670a9c-ad79-47e0-a870-61e3607a092b)
 
 ---
