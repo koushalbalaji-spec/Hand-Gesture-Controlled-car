@@ -23,16 +23,16 @@ This eliminates the need for remote or complicated controls.
 - 2 more motors added to increase **Drive power** and **Accuracy**.
 
 ---
-##TOP VIEW (With PCB)
+## TOP VIEW (With PCB)
 <img width="1032" height="726" alt="image" src="https://github.com/user-attachments/assets/e47d4ea1-8085-430c-9c91-8858138b73a8" />
 
 ---
 
-##BOTTOM VIEW
+## BOTTOM VIEW
 <img width="1070" height="732" alt="image" src="https://github.com/user-attachments/assets/d34e91e0-0bef-43ed-bfb8-f6d22320cbc2" />
 
 ---
-##Car without PCB
+## Car without PCB
 
 ![1000031322](https://github.com/user-attachments/assets/62e01929-ae63-4fce-bfde-7fad04b0160e)
 ---
@@ -70,7 +70,7 @@ This eliminates the need for remote or complicated controls.
 - PCB
 - Power source (Recharable power bank)
 
-##PCB
+## PCB
 
 ![pcbTransimitter2d](https://github.com/user-attachments/assets/225a32a9-cbb8-4f2d-ad8f-787ad41c586c)
 ---
@@ -91,7 +91,7 @@ This eliminates the need for remote or complicated controls.
 - Battery pack  (2 sets of batteries)
 - **PCB** to house all the components
 
-##PCB
+## PCB
 
 ![Screenshot 2026-03-03 171144](https://github.com/user-attachments/assets/099cbaec-8ab9-4400-a191-c3e82f6403a6)
 ---
