@@ -136,18 +136,18 @@ Component - Approx. Price (INR)
  -MPU6050 - ₹160 
  -NRF24L01 PA/LNA (×2) - ₹280 each 
  -L298N Motor Driver - ₹120 
- -DC Motors with Wheels (×4) - ₹100 each 
- -AMS1117-3.3V - ₹15 
- -16MHz Crystal Oscillator - ₹15 
- -10kΩ Resistor - ₹2 
- -10µF Capacitor (×2) - ₹5 each 
- -22pF Capacitor (×2) - ₹3 each 
- -Custom PCB (Receiver) - ₹200 
- -Custom PCB (Transmitter) - ₹150 
- -Car Chassis - ₹400 
- -Rechargeable Power Bank - ₹600 
- -AA Battery Pack (×2) - ₹120 each 
- -PCB Transmitter and Receiver- ₹1800 (Excluding Conversion fee from $s)
+ - DC Motors with Wheels (×4) - ₹100 each 
+ - AMS1117-3.3V - ₹15 
+ - 16MHz Crystal Oscillator - ₹15 
+ - 10kΩ Resistor - ₹2 
+ - 10µF Capacitor (×2) - ₹5 each 
+ - 22pF Capacitor (×2) - ₹3 each 
+ - Custom PCB (Receiver) - ₹200 
+ - Custom PCB (Transmitter) - ₹150 
+ - Car Chassis - ₹400 
+ - Rechargeable Power Bank - ₹600 
+ - AA Battery Pack (×2) - ₹120 each 
+ - PCB Transmitter and Receiver- ₹1800 (Excluding Conversion fee from $s)
 ##  PCB images and circuit diagram uploaded.
 
 
